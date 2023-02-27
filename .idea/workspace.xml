@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2191d32d-5a2f-47f8-a8e1-12a63d07bc95" name="Changes" comment="Added comments and completed finding fodder prices">
+    <list default="true" id="2191d32d-5a2f-47f8-a8e1-12a63d07bc95" name="Changes" comment="Improvements of the code and the magic numbers involved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677497388141</updated>
       <workItem from="1677497392236" duration="2816000" />
-      <workItem from="1677500482916" duration="2009000" />
+      <workItem from="1677500482916" duration="8022000" />
     </task>
     <task id="LOCAL-00001" summary="Finished basic cheapest scraping">
       <created>1677500564932</created>
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677501558501</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Improvements of the code and the magic numbers involved">
+      <created>1677502557050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677502557050</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,10 +121,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished basic cheapest scraping" />
     <MESSAGE value="Added comments and completed finding fodder prices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comments and completed finding fodder prices" />
+    <MESSAGE value="Improvements of the code and the magic numbers involved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improvements of the code and the magic numbers involved" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Nadavson_Futbin_Scraping$main.coverage" NAME="main Coverage Results" MODIFIED="1677502483973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Nadavson_Futbin_Scraping$main.coverage" NAME="main Coverage Results" MODIFIED="1677508566600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sbcAI$main.coverage" NAME="main Coverage Results" MODIFIED="1677500215235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sbcAI$getPrices.coverage" NAME="getPrices Coverage Results" MODIFIED="1677498752644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
