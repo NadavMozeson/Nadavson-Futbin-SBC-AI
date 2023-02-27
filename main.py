@@ -20,10 +20,6 @@ for player in bs.find_all(class_="col-md-4 col-6 top-stc-players-col p-2 px-0"):
             price = int(price)
         foderPrices[rating] = price
 
-def get_card_combinations(cards, n):
-    return list(itertools.combinations_with_replacement(foderRatings, n))
-
-
 def calculate_price(combo, user_cards):
     sum = 0
     count = dict()
@@ -45,7 +41,7 @@ def calculate_team_rating(player_ratings):
     return round(team_total) // 11
 
 def find_cheapest_combination(cards, target_average):
-    card_combinations = get_card_combinations(foderRatings, 11)
+    card_combinations = list(itertools.combinations_with_replacement(foderRatings, 11))
 
     min_price = float('inf')
     min_price_combination = None
@@ -58,7 +54,7 @@ def find_cheapest_combination(cards, target_average):
                 min_price = temp
 
     return min_price_combination
-
+"unnecessary"""
 foders = input("יש לרשום את הרייטינג של הפודרים שיש לך. נספרים רק פודרים בין 84-91. יש להפריד עם רווח בין המספרים.\n")
 arr = foders.split()
 fodersSupply = dict()
