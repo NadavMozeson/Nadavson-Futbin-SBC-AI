@@ -54,7 +54,7 @@ def find_cheapest_combination(cards, target_average):
                 min_price = temp
 
     return min_price_combination
-"unnecessary"""
+
 foders = input("יש לרשום את הרייטינג של הפודרים שיש לך. נספרים רק פודרים בין 84-91. יש להפריד עם רווח בין המספרים.\n")
 arr = foders.split()
 fodersSupply = dict()
